@@ -12,7 +12,7 @@ A website that is a daily schdeluder.
 
 https://benitocr.github.io/work-day-scheduler/
 
-![page of work day scheduler](Develop/mockup.JPG)
+![page of work day scheduler](Develop/mokup.JPG)
 
 ## Contribution
 Made by Benito C.
