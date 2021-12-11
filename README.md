@@ -6,10 +6,10 @@ A website that is a daily schdeluder.
 ## Built with
 * HTML
 * CSS
-**Bootstrap
+    Bootstrap
 * JavaScript
-**Jquery
-**Moment.js
+    Jquery
+    Moment.js
 
 
 ## Website
