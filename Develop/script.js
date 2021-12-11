@@ -1,4 +1,4 @@
-//fuction that loads schedule
+//fuction that loads schedule from localstorage
 var loadSchedulle =function(){
     var date = moment().format('llll');
     console.log(date)
@@ -23,7 +23,7 @@ var loadSchedulle =function(){
     $("#text5pm").val(info);
     asignColor();
 }
-
+//fuction to asign color code to time blocks
 var asignColor = function(){
     console.log("in color fuction");
     var info = moment().hour();  
