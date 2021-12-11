@@ -1,6 +1,8 @@
 //fuction that loads schedule
 var loadSchedulle =function(){
-    
+    var date = moment().format('llll');
+    console.log(date)
+    $("#currentDay").text(date);
     var info = localStorage.getItem("9am");
     $("#text9am").val(info);
     info = localStorage.getItem("10am");
@@ -24,8 +26,8 @@ var loadSchedulle =function(){
 
 var asignColor = function(){
     console.log("in color fuction");
-    //var info = moment().hour();  
-    var info =05;
+    var info = moment().hour();  
+   
     console.log("hora del dia " + info);
     if(info<09){
         $("#text9am").toggleClass("future");
